@@ -26,15 +26,12 @@ class Function {
 
     fun fun22(name: String) {   //如果是返回值是Unit类型，则可以不写
 
-
-        //单行函数
-
-        fun sum(a: Int, b: Int) = a + b//a+b是返回值，可以写成单行函数
-
-
-        println("sum:${sum(1,2)}")//则打印出 1+2的值，调用上面加法函数
-
-
-
+        println("sum:${sum(1,2)}")
     }
+    //单行函数
+
+    fun sum(a: Int, b: Int) = a + b//a+b是返回值，可以写成单行函数
+
+
+
 }

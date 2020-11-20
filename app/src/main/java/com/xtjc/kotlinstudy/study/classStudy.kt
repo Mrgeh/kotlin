@@ -40,11 +40,11 @@ class classStudy(id: Int) {//加了括号之后 变成主构造函数  则次构
     var name: String
 //初始块  用init关键字  java中的初始块  直接用{},init可以写  多个。  会按顺序执行
 
-    init {
-    this.id=id
-    this.name=""
-
-}
+//    init {
+//    this.id=id
+//    this.name=""
+//
+//}
     init {
         this.id = id
         println(2)
